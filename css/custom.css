@@ -1,0 +1,15 @@
+.contact .form button {
+    padding: 10px 30px;
+    background: #222;
+    color: #fff;
+    font-size: 14px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+	-webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.contact .form button:hover {
+	background: #FFB600;
+}
