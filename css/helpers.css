@@ -37,7 +37,7 @@
 -------------------------------------------------------*/
 
 h1 {
-  font-size: 55px;
+  font-size: 80px;
 }
 
 h2 {
@@ -53,7 +53,7 @@ h4 {
 }
 
 h5 {
-  font-size: 25px;
+  font-size: 45px;
 }
 
 h6 {
@@ -436,7 +436,7 @@ p {
 
 [data-overlay-dark] p,
 [data-overlay-color] p {
-  color: #bbb;
+  color: #fff;
 }
 
 [data-overlay-dark="0"]:before,
