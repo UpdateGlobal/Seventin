@@ -13,6 +13,40 @@
 /* ----------------------------------------------------------------
 	Basic
 -----------------------------------------------------------------*/
+
+
+
+@font-face {
+    font-family: "seventitle";
+    src: url('') format("opentype");
+}
+
+
+@font-face {
+    font-family: "sevensub";
+    src: url('') format("opentype");
+}
+
+
+@font-face {
+    font-family: "seventext";
+    src: url('') format("opentype");
+}
+
+.seventitle{
+    font-family: seventitle;
+}
+.sevensub{
+
+  font-family: sevensub;
+}
+
+.seventext{
+    font-family: seventext;
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -199,6 +233,8 @@ span, a, a:hover {
 
 .nav-scroll {
   background-image: url(../images/nav_scrool.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   /*background: #ffffff;*/
   border-bottom: 1px solid rgba(12, 12, 12, 0.04);
   padding: 0;
@@ -225,13 +261,19 @@ span, a, a:hover {
   width: 150px;
 }
 
-@media screen and (max-height: 450px;){
+@media screen and (max-width: 992px) {
   .logo {
-  padding: 15px 0;
-  width: 50px;
-}
+      padding: 15px 15px;
+      width: 110px;
+  } 
 }
 
+@media screen and (max-width: 992px) {
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+    text-align: center!important;background-color: #00000075;
+}
+}
 
 /* ----------------------------------------------------------------
 	Header
@@ -286,20 +328,7 @@ span, a, a:hover {
       -webkit-animation-delay: 1s;
       animation-delay: 1s;
 }
-.header .buton:hover {
-  font-size: 32px;
-  padding: 30px 50px;
-    background: #c2509700;
-    color: #fff;
-    border-radius: 30px;
-    font-family: 700;
-    border: 3px solid #c25097;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    cursor: pointer;
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-}
+
 .header .arrow {
   position: absolute;
   bottom: 5vh;
@@ -359,6 +388,18 @@ span, a, a:hover {
   position: absolute;
   bottom: 5vh;
   width: 100%;
+}
+
+
+@media screen and (max-width: 450px) {
+  .sizeletra{
+    font-size: 42px;
+  }
+
+  .header .caption {
+    margin-top: 10px;
+    z-index: 9;
+  }
 }
 
 #particles-js {
@@ -1093,6 +1134,7 @@ position: absolute;
   display: block;
   height: 40px;
   margin-bottom: 12px;
+
 }
 
 .header-fix-redes a {
@@ -1104,6 +1146,7 @@ position: absolute;
   text-align: center;
   color: #00000000;
   z-index: 10;
+
 }
 .header-fix-redes a:after {
   content: "";
@@ -1118,8 +1161,8 @@ position: absolute;
   -o-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  background: #ffffff00;
-  z-index: 9;
+  background: #ffffff50;
+  z-index: -9999;
   -webkit-transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
@@ -1319,3 +1362,15 @@ width:auto;
 height:auto;
 overflow:hidden;
 }
+
+
+.firma{
+  width: 25%; height: auto;
+}
+@media screen and (max-width: 720px) {
+  .firma{
+  width: 100%; height: auto;
+}
+}
+
+

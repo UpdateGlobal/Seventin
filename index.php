@@ -42,7 +42,7 @@
 		<nav class="navbar navbar-expand-lg">
 			<div class="container">
 			  <a class="logo" href="slider.html#">
-			  	<img src="images/logo_black.png" alt="logo">
+			  	<img src="images/seventie-chip-negro.svg" alt="logo">
 			  </a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="icon-bar"><i class="fas fa-bars"></i></span>
@@ -63,7 +63,7 @@
 			        <a class="nav-link" href="slider.html#" data-scroll-nav="3">Galeria</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="slider.html#" data-scroll-nav="4">Contacto</a>
+			        <a class="nav-link" href="#contact" data-scroll-nav="4">Contacto</a>
 			      </li>
 			    </ul>
 			  </div>
@@ -78,28 +78,28 @@
     		<div class="container-fluid">
     			<div class="row">
     				<div class="owl-carousel owl-theme full-width">
-    					<div class="text-center item bg-img" data-overlay-dark="7" data-background="images/slide/3.jpg">
+    					<div class="text-center item bg-img" data-overlay-dark="7" data-background="images/slide/3.jpg" style="background-repeat: no-repeat;background-position: center top;">
 	    					<div class="v-middle caption">
     							<h5>Sintoniza <span> tu Sueños</span></h5>
-			    				<h1 class="bold">Realzamos tu Belleza</h1>
+			    				<h1 class="bold sizeletra">Realzamos tu Belleza</h1>
 			    				
-							   <a href="slider.html#0" class="buton">Contáctanos</a>
+							   <a href="#contact" class="buton">Contáctanos</a>
 	    					</div>
 	    				</div>
-	    				<div class="text-center item bg-img" data-overlay-dark="7" data-background="images/slide/4.jpg">
+	    				<div class="text-center item bg-img" data-overlay-dark="7" data-background="images/slide/4.jpg" style="background-repeat: no-repeat;background-position: center top;">
 	    					<div class="v-middle caption">
     							<h5>Sintoniza <span> tu Sueños</span></h5>
-			    				<h1 class="bold">Realzamos tu Belleza</h1>
+			    				<h1 class="bold sizeletra">Realzamos tu Belleza</h1>
 			    				
-							   <a href="slider.html#0" class="buton">Contáctanos</a>
+							   <a href="#contact" class="buton">Contáctanos</a>
 	    					</div>
 	    				</div>
-	    				<div class="text-center item bg-img" data-overlay-dark="7" data-background="images/slide/9.jpg">
+	    				<div class="text-center item bg-img" data-overlay-dark="7" data-background="images/slide/9.jpg" style="background-repeat: no-repeat;background-position: center top;">
 	    					<div class="v-middle caption">
     							<h5>Sintoniza <span> tu Sueños</span></h5>
-			    				<h1 class="bold">Realzamos tu Belleza</h1>
+			    				<h1 class="bold sizeletra">Realzamos tu Belleza</h1>
 			    				
-							   <a href="slider.html#0" class="buton">Contáctanos</a>
+							   <a href="#contact" class="buton">Contáctanos</a>
 	    					</div>
 	    				</div>
 	    			
@@ -130,7 +130,7 @@
                                 <h4>Salón <span>&</span> Spa</h4>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                             </div>
-                            <img src="images/signature.png"  style="width: 25%; height: auto;">
+                            <img src="images/signature.png" class="firma">
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@
 
        <!-- =====================================
         ==== Start services -->
-        <section class=" section-padding text-center bgsev" data-scroll-index="3">
+        <section class=" section-padding text-center bgsev" data-scroll-index="2">
             <div class="container" >
                 <div class="row">
                     <div class="offset-md-2 col-md-8">
@@ -215,7 +215,7 @@
 
         <!-- =====================================
         ==== Start Portfolio -->
-        <section class="portfolio section-padding pb-0" data-scroll-index="2">
+        <section class="portfolio section-padding pb-0" data-scroll-index="3">
             <div class="container-fluid">
 
                 <div class="row">
@@ -341,7 +341,7 @@
 
         <!-- =====================================
         ==== Start Team -->
-        <section class="team section-padding bg-gray" data-scroll-index="4">
+        <section class="team section-padding bg-gray" data-scroll-index=".." >
             <div class="container">
                 <div class="row">
                     
@@ -403,18 +403,18 @@
         ==== Social Fixed -->
         <div class="header-fix-right" style="position: fixed; bottom: 10%; width: 32px;">
             <ul class="header-fix-redes">
-                <li>
-                    <a href="https://www.facebook.com/www.serpymam.com.pe/" target="_blank">
+                <li >
+                    <a href="https://www.facebook.com/" target="_blank" style="">
                         <img src="images/icon/facebook-f.svg" class="img_social">
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/www.serpymam.com.pe/" target="_blank">
+                    <a href="https://www.facebook.com/" target="_blank">
                         <img src="images/icon/instagram-f.svg" class="img_social">
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.facebook.com/www.serpymam.com.pe/" target="_blank">
+                    <a href="https://www.facebook.com/" target="_blank">
                         <img src="images/icon/youtube-f.svg" class="img_social">
                     </a>
                 </li>
@@ -426,8 +426,8 @@
 
         <!-- =====================================
         ==== Start Contact -->
-        <section class="contact" data-scroll-index="7">
-            <div class="contact-info bg-img" data-overlay-dark="6" data-background="images/8.jpg">
+        <section class="contact" data-scroll-index="4" >
+            <div class="contact-info bg-img" data-overlay-dark="6" data-background="images/8.jpg" style="background-repeat: no-repeat;background-position: center top;">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-4">
@@ -461,10 +461,10 @@
                 </div>
             </div>
 
-            <div class="container section-padding">
+            <div class="container section-padding" id="contact">
 
                         <div class="section-head"> 
-                            <h4>Con<span>tac</span>tanos</h4>
+                            <h4>Con<span>tác</span>tanos</h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
                         </div>
              
@@ -508,7 +508,7 @@
               <div class="container" align="center">
                 <div class="row">
                   <div class="col-md-12">
-                    <img src="images/seventie-blanco.svg" class="img-responsive abt_img2 ">
+                    <img src="images/seventie-chip-blanco.svg" class="img-responsive abt_img2 ">
                     <p class="grey-text text-lighten-4 text_foot img_foo foo_bt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since.</p>
                      
                   </div>
