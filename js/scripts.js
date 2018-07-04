@@ -65,13 +65,13 @@ $(function() {
         if(bodyScroll > 100){
 
             navbar.addClass("nav-scroll");
-            logo.attr('src', 'images/logo_white.png');
+            logo.attr('src', 'images/seventie-negro1.svg');
 
         }
         else{
 
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'images/logo_white.png');
+            logo.attr('src', 'images/seventie-blanco.svg');
         }
     });
 
