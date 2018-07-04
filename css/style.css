@@ -222,10 +222,15 @@ span, a, a:hover {
 
 .logo {
   padding: 15px 0;
-  width: 90px;
+  width: 150px;
 }
 
-
+@media screen and (max-height: 450px;){
+  .logo {
+  padding: 15px 0;
+  width: 50px;
+}
+}
 
 
 /* ----------------------------------------------------------------
