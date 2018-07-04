@@ -1,6 +1,6 @@
 <?php
 $toEmail = "raulupdate@gmail.com";
-$subject = $_POST['asunto'];
+$subject = $_POST['asunto']." - Desde Contacto Seventin";
 $mailHeaders = 'From: '.$_POST["email"]."\r\n".
 'Reply-To: '.$_POST["email"]."\r\n" .
 'X-Mailer: PHP/' . phpversion();
