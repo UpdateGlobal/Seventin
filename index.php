@@ -6,8 +6,8 @@
         <meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-		<meta name="keywords" content="HTML5 Template Infinity onepage themeforest" />
-		<meta name="description" content="Infinity - Onepage Multi-Purpose HTML5 Template" />
+		<meta name="keywords" content="Seventies | Salón & Spá" />
+		<meta name="description" content="Ven y relájate y diviértete con nuestro estilo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."/>
 		<meta name="author" content="themezey" />
 
 		<!-- Title  -->
