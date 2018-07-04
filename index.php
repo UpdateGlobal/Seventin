@@ -7,8 +7,8 @@
         <meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-		<meta name="keywords" content="HTML5 Template Infinity onepage themeforest" />
-		<meta name="description" content="Infinity - Onepage Multi-Purpose HTML5 Template" />
+		<meta name="keywords" content="Seventies | Salón & Spá" />
+		<meta name="description" content="Ven y relajate con el estilo que tenemos reservado para ti. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam." />
 		<meta name="author" content="themezey" />
 
 		<!-- Title  -->
@@ -151,7 +151,7 @@
                             </a>
                             <div class="section-head">
                                 <h4>Quienes <span> Somos</span></h4>
-                                <p>Somos una empresa que se dedica a desarrollar&nbsp;<b>estrategias de campañas de marketing político</b>, identificamos las necesidades del cliente en base a las necesidades de la población para luego crear conceptos e ideas que nos permitan realizar piezas gráficas, material audiovisual, jingles y&nbsp;<b>comunicación de masas en general.</b></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</b></p>
                             </div>
                         </div>
                     </div>
