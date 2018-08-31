@@ -38,10 +38,10 @@
     	======================================= -->
 
     	<!-- =====================================
-    	==== Start Navbar -->
+    	==== Start Navbar --
 		<nav class="navbar navbar-expand-lg">
 			<div class="container">
-			  <a class="logo" href="slider.html#">
+			  <a class="logo" href="index.php">
 			  	<img src="images/seventie-chip-negro.svg" alt="logo">
 			  </a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,6 +72,46 @@
     	<!-- End Navbar ====
     	======================================= -->
 
+
+
+
+
+
+        <!-- =====================================
+        ==== Start Navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="logo" href="index.php">
+                <img src="images/seventie-chip-negro.svg" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="slider.html#" data-scroll-nav="0">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="slider.html#" data-scroll-nav="1">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="slider.html#" data-scroll-nav="2">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="slider.html#" data-scroll-nav="3">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact" data-scroll-nav="4">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <!-- End Navbar ====
+        ======================================= -->
+
     	<!-- =====================================
     	==== Start Header -->
     	<header class="header slider-fade" data-scroll-index="0">
@@ -80,7 +120,7 @@
     				<div class="owl-carousel owl-theme full-width">
     					<div class="text-center item bg-img" data-overlay-dark="7" data-background="images/slide/3.jpg" style="background-repeat: no-repeat;background-position: center top;">
 	    					<div class="v-middle caption">
-    							<h5>Sintoniza <span> tu Sueños</span></h5>
+    							<h5>Sintoniza <span> tus Sueños</span></h5>
 			    				<h1 class="bold sizeletra">Realzamos tu Belleza</h1>
 			    				
 							   <a href="#contact" class="buton">Contáctanos</a>
@@ -88,7 +128,7 @@
 	    				</div>
 	    				<div class="text-center item bg-img" data-overlay-dark="7" data-background="images/slide/4.jpg" style="background-repeat: no-repeat;background-position: center top;">
 	    					<div class="v-middle caption">
-    							<h5>Sintoniza <span> tu Sueños</span></h5>
+    							<h5>Sintoniza <span> tus Sueños</span></h5>
 			    				<h1 class="bold sizeletra">Realzamos tu Belleza</h1>
 			    				
 							   <a href="#contact" class="buton">Contáctanos</a>
@@ -96,7 +136,7 @@
 	    				</div>
 	    				<div class="text-center item bg-img" data-overlay-dark="7" data-background="images/slide/9.jpg" style="background-repeat: no-repeat;background-position: center top;">
 	    					<div class="v-middle caption">
-    							<h5>Sintoniza <span> tu Sueños</span></h5>
+    							<h5>Sintoniza <span> tus Sueños</span></h5>
 			    				<h1 class="bold sizeletra">Realzamos tu Belleza</h1>
 			    				
 							   <a href="#contact" class="buton">Contáctanos</a>
@@ -209,7 +249,279 @@
                     <div class="clearfix"></div>
                 </div>
             </div>
+
         </section>
+
+
+        <div id="accordion">
+          <div class="card">
+            <div class="card-headers" id="headingOne" align="center">
+              <h5 class="mb-0">
+                <button class="btn btn-link_menu" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="text-decoration: none;">
+                  Menu Servicios
+                </button>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body container" align="center">
+
+
+
+                <div class="row" align="center" style="padding: 0px 0px;">
+                    <ul class="nav nav-tabs" role="tablist" style="text-align: center;">
+                      <li class="nav-item" class="active">
+                        <a class="nav-link " href="#Cabellos" role="tab" data-toggle="tab">Cabellos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Tratamientos" role="tab" data-toggle="tab">Tratamientos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Color" role="tab" data-toggle="tab">Color</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Corte" role="tab" data-toggle="tab">Corte</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Alizados" role="tab" data-toggle="tab">Alizados</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Manos" role="tab" data-toggle="tab">Manos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Pies" role="tab" data-toggle="tab">Pies</a>
+                      </li>
+                    </ul>
+                </div>
+                <!-- Tab panes -->
+                <div class="tab-content" style="margin: 50px 0px;">
+
+                    <p>loren Ipsum moment morat text repeat</p>
+
+                    <div role="tabpanel" class="tab-pane fade" id="Cabellos">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 offset-md-3" style="padding: 0;">
+                                <ul align="left">
+                                    <li><i class="far fa-check-circle list_pe"></i>Lavado Cepillado Regular<span style="float: right;">s/ 30 - 50</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i>Lavado y Planchado<span style="float: right;">s/ 30 - 45</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i>Planchado<span style="float: right;">s/ 15 - 20</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i>Ondas o Rulos<span style="float: right;">s/ 20 - 60</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i>Cepillado<span style="float: right;">s/ 30 - 40</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i>Trenzas<span style="float: right;">s/ 15 - 35</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i>Peinados<span style="float: right;">s/ 50 - 120</span></li>
+                                    <hr>
+                                    <li><i class="far fa-check-circle list_pe"></i>Paquete Novia<span style="float: right;">s/ 300 - 600</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i>Paquete Quinceañeras<span style="float: right;">s/ 150 - 350</span></li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Tratamientos">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 offset-md-3" style="padding: 0;">
+                                <ul align="left">
+                                    <li><i class="far fa-check-circle list_pe"></i> Botox Capilar<span style="float: right;">s/ 100 - 150</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Mascarilla <span style="float: right;">s/ 60 - 90</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Morocan Span<span style="float: right;">s/ 100</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Ampollas Loreal<span style="float: right;">s/ 35</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Tratamiento Organico <span style="float: right;">s/ 70 - 90</span></li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Color">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 offset-md-3" style="padding: 0;">
+                                <ul align="left">
+                                    <li><i class="far fa-check-circle list_pe"></i> Tinte Completo<span style="float: right;">s/ 130</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Raices / Loreal-Inoa<span style="float: right;">s/ 80 - 100</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Vincha<span style="float: right;">s/ 45</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Iluminacion<span style="float: right;">s/ 100</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Mechas<span style="float: right;">s/ 150 - 250</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Balayage<span style="float: right;">s/ 120 - 250</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Rayitos<span style="float: right;">s/ 100</span></li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Corte">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 offset-md-3" style="padding: 0;">
+                                <ul align="left">
+                                    <li><i class="far fa-check-circle list_pe"></i> Damas<span style="float: right;">s/ 25 - 45</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Hombre<span style="float: right;">s/25 - 40  </span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Niños<span style="float: right;">s/ 20</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Barbas<span style="float: right;">s/ 10 - 25</span></li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Alizados">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 offset-md-3" style="padding: 0;">
+                                <ul align="left">
+                                    <li><i class="far fa-check-circle list_pe"></i> Keratina<span style="float: right;">s/ 150 - 200</span></li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Manos">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 offset-md-3" style="padding: 0;">
+                                <ul align="left">
+                                    <li><i class="far fa-check-circle list_pe"></i> Manicure Express 7ies <span style="float: right;">s/ 10 </span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Manicure<span style="float: right;">s/ 20</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Manicure 7ies Spa <span style="float: right;">s/ 25</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Gel Color <span style="float: right;">s/ 35</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Niñas<span style="float: right;">s/ 15</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Lampara<span style="float: right;">s/ 45</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Tips<span style="float: right;">s/ 80</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Acrilicas<span style="float: right;">s/ 120</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Retoque Acrilicas<span style="float: right;">s/ 5 c/u</span></li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Pies">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-6 offset-md-3" style="padding: 0;">
+                                <ul align="left">
+                                    <li><i class="far fa-check-circle list_pe"></i> Cambio Esmalte<span style="float: right;">s/ 10</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Pedicure 7ies Spa <span style="float: right;">s/ 30 - 40</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Gel Color<span style="float: right;">s/ 45</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Niñas<span style="float: right;">s/ 20</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Lamparas<span style="float: right;">s/ 60</span></li>
+                                    <hr>
+                                    <li><i class="far fa-check-circle list_pe"></i> Gel Manos + Pies<span style="float: right;">s/ 65</span></li>
+                                    <li><i class="far fa-check-circle list_pe"></i> Gel Lampara + Pies<span style="float: right;">s/ 90</span></li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-headers" id="headingTwo" align="center">
+              <h5 class="mb-0">
+                <button class="btn btn-link_menu" data-toggle="collapse" data-target="#collapsetWO" aria-expanded="true" aria-controls="collapsetWO" style="text-decoration: none; font-family: 'Poppins', sans-serif;">
+                  Menu Spa
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapsetWO" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body container">
+
+
+
+
+                <div class="row" align="center" style="padding: 0px 0px;">
+                    <ul class="nav nav-tabs" role="tablist" style="text-align: center;">
+                      <li class="nav-item">
+                        <a class="nav-link " href="#Tratamientofacial" role="tab" data-toggle="tab">Tratamiento Facial</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Masajes" role="tab" data-toggle="tab">Masajes</a>
+                      </li>
+                    </ul>
+                </div>
+                <!-- Tab panes -->
+                <div class="tab-content" style="margin: 50px 0px;">
+
+                    <div role="tabpanel" class="tab-pane fade" id="Tratamientofacial">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+
+
+                                <h4>Limpieza Facial</h4>
+                                <p>Facial de ciudado y de limpieza del rostro, hidrata y suaviza la piel.<br> Duracion: 50 Min<span style="float: right;">s/ 120</span></p>
+                                <hr>
+                                <h4>Contorno de Ojos</h4>
+                                <p>Especifico para atenuar las lineas de expresion alrededor de los ojos las bolsas y las ojeras generadas por el cansancio del dia a dia.<br> Duracion: 30 Min<span style="float: right;">s/ 50</span></p>
+                                <hr>
+                                <h4>Antiacné - Vitamina C</h4>
+                                <p>Purifica, controla y elimina el exceso de grasa sin dañar la piel, elimina la congestión y las bacteria relacionadas con el acné.<br> Duracion: 75 Min<span style="float: right;">s/ 120</span></p>
+                                <hr>
+                                <h4>Anti Aging</h4>
+                                <p>Con aplicacion de activos y aparatologia para estimular la produccioón de colágeno y revertirel proceso de envejecimiento de la piel.<br> Duración: 75 Min<span style="float: right;">s/ 120</span></p>
+                                <hr>
+                                <h4>Descongestionante para piel sensible y rosácea</h4>
+                                <p>Controla la hipersensibilidad y enrojecimiento de la piel, reparando el sistema de defensa natural.<br> Duracion: 60 Min<span style="float: right;">s/ 120</span></p>
+                                <hr>
+                                <h4>Hidratacion Profunda con Ácido Hialurónico</h4>
+                                <p>Recupera el brillo e hidratacion de tu piel:<br> Duración: 80 Min<span style="float: right;">s/ 150</span></p>
+                                <hr>
+                                <h4>Despigmentante</h4>
+                                <p>Combinacion de activos para regular la produccion de melanina <br>abteniedo una piel mas pareja y luminosa.<br> Dureacion: 80 Min<span style="float: right;">s/ 200</span></p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div role="tabpanel" class="tab-pane fade" id="Masajes">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                            
+                                    <h4>Sueco Relajante Espalda y Cuello</h4>
+                                    <p>Ayuda a relajar tensiones musculares, agotamiento y aliviar el estres.<br> Duración: 40 Min<span style="float: right;">s/ 50</span></p>
+                                    <hr>
+                                    <h4>Seventies Relax</h4>
+                                    <p>Mezcla cuatros tecnicas: sueco relajante, terapeutico descontracturate, reflexologia en los pies y shiatsu<br> Duración: 50 Min<span style="float: right;">s/ 85</span></p>
+                                    <hr>
+                                    <h4>Terapéutico Descontracturante</h4>
+                                    <p>Trabaja contracturas musculares de todo el cuerpo, aliviando el malestar que estas producen<br> Duración: 60 Min<span style="float: right;">s/ 130</span></p>
+                                    <hr>
+                                    <h4>Reflexologia</h4>
+                                    <p>Masaje de digito presión que estimula las zonas reflejas de los órganos en las plantas de los pies, brindando bienestar<br> Duración: 40 Min<span style="float: right;">s/ 30 - 65 </span></p>
+                                    <hr>
+                                    <h4>Drenaje Linfatico</h4>
+                                    <p>Movimientos envolventes que logran eliminar toxinas, movilizar liquidos y grasa, activar el metabolismo y estimular el sistema linfatico<br> Duración: 60 Min<span style="float: right;">s/ 150</span></p>
+                                    <hr>
+                                    <h4>Piernas Cansadas</h4>
+                                    <p>Mejora la circulacion y alivia la sensacion de cansancio<br> Duración: 45 Min<span style="float: right;">s/ 60</span></p>
+                                    <hr>
+                                    <h4>Reductor Anticelulitico</h4>
+                                    <p>Para reducir medidas, modelar, desintegrar adiposidades y atenuar la celulitis.<br> Duración: 60 Min<span style="float: right;">s/ 120</span></p>
+                                    <hr>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- End services ====
         ======================================= -->
 
@@ -242,7 +554,7 @@
 
                         <div class="col-md-4 o-hidden items ninos">
                             <div class="item-img wow slideInRight">
-                                <img src="images/galeria/1.jpg" alt="image">
+                                <img src="images/galeria/4.jpg" alt="image">
                                 <div class="item-img-overlay valign">
                                     <div class="overlay-info full-width vertical-center">
                                         <h6>Loren Ipsum</h6>
@@ -329,6 +641,48 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-4 o-hidden items Mujeres">
+                            <div class="item-img wow slideInLeft">
+                                <img src="images/galeria/4.jpg" alt="image">
+                                <div class="item-img-overlay valign">
+                                    <div class="overlay-info full-width vertical-center">
+                                        <h6>Loren Ipsum</h6>
+                                        <p>Loren Ipsum Dolot amet</p>
+                                    </div>
+                                    <a href="images/galeria/4.jpg" data-lity>
+                                        <i class="fas fa-file"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 o-hidden items Mujeres">
+                            <div class="item-img wow slideInLeft">
+                                <img src="images/galeria/5.jpg" alt="image">
+                                <div class="item-img-overlay valign">
+                                    <div class="overlay-info full-width vertical-center">
+                                        <h6>Loren Ipsum</h6>
+                                        <p>Loren Ipsum Dolot amet</p>
+                                    </div>
+                                    <a href="images/galeria/5.jpg" data-lity>
+                                        <i class="fas fa-file"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 o-hidden items Mujeres">
+                            <div class="item-img wow slideInLeft">
+                                <img src="images/galeria/5.jpg" alt="image">
+                                <div class="item-img-overlay valign">
+                                    <div class="overlay-info full-width vertical-center">
+                                        <h6>Loren Ipsum</h6>
+                                        <p>Loren Ipsum Dolot amet</p>
+                                    </div>
+                                    <a href="images/galeria/5.jpg" data-lity>
+                                        <i class="fas fa-file"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="clear-fix"></div>
 
@@ -401,7 +755,7 @@
 
         <!-- =====================================
         ==== Social Fixed -->
-        <div class="header-fix-right" style="position: fixed; bottom: 10%; width: 32px;">
+        <div class="header-fix-right d-none d-sm-block d-sm-none d-md-block" style="position: fixed; bottom: 10%; width: 32px;">
             <ul class="header-fix-redes">
                 <li >
                     <a href="https://www.facebook.com/" target="_blank" style="">

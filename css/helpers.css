@@ -485,6 +485,7 @@ p {
 [data-overlay-light="7"]:before,
 [data-overlay-color="7"]:before {
   opacity: 0.7;
+  background: #00000069;
 }
 
 [data-overlay-dark="8"]:before,

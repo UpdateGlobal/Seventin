@@ -234,6 +234,8 @@ span, a, a:hover {
 .nav-scroll {
   background-image: url(../images/nav_scrool.png);
   background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
   background-size: cover;
   /*background: #ffffff;*/
   border-bottom: 1px solid rgba(12, 12, 12, 0.04);
@@ -249,6 +251,16 @@ span, a, a:hover {
   -webkit-transform: translateY(100px);
   transform: translateY(100px);
 }
+
+.nav-scroll:before{
+    background: #00000070;
+
+}
+
+
+
+
+
 .nav-scroll .icon-bar {
   color: #fff;
 }
@@ -257,13 +269,14 @@ span, a, a:hover {
 }
 
 .logo {
-  padding: 15px 0;
-  width: 150px;
+  /* padding: 15px 0; */
+  width: 80px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 992px) {
   .logo {
-      padding: 15px 15px;
+      /* padding: 15px 15px; */
       width: 110px;
   } 
 }
@@ -271,7 +284,8 @@ span, a, a:hover {
 @media screen and (max-width: 992px) {
 .ml-auto, .mx-auto {
     margin-left: auto!important;
-    text-align: center!important;background-color: #00000075;
+    text-align: center!important;
+    background-color: #00000075;
 }
 }
 
@@ -1373,4 +1387,23 @@ overflow:hidden;
 }
 }
 
+.btn-link_menu {
+    font-weight: 400;
+    color: #c25097;
+    background-color: transparent;
+}
 
+.card-headers {
+    /* padding: .75rem 1.25rem; */
+    margin-bottom: 0;
+    background-color: #222222;
+    border-bottom: 1px solid #222222;
+}
+
+
+.list_pe{
+  color: #c25097;
+  font-size: 22px;
+  margin-right: 5px;
+  margin-top: 2px;
+}
