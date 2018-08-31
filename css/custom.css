@@ -1,4 +1,4 @@
-.contact .form button {
+button.btn-seven {
     padding: 10px 30px;
     background: #222;
     color: #fff;
@@ -10,6 +10,6 @@
     transition: all .5s;
 }
 
-.contact .form button:hover {
-	background: #FFB600;
+button.btn-seven:hover {
+	background: #c25097;
 }
